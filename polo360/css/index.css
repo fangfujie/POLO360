@@ -1,0 +1,247 @@
+            *{
+				margin: 0;
+				padding: 0;
+			}
+			ul{
+				list-style: none;
+			}
+			body{
+				background:url(../img/bd-bg.png) repeat-x;
+			}
+			.header{
+				margin: auto;
+				padding-top: 30px;
+				width: 50%;
+				height: 80px;
+			}
+			.logo{
+				float: left;
+			}
+			.nav{
+				display: inline-block;
+				float: right;
+			}
+			/*清除浮动*/
+			.clear::after,.clear::before{
+				clear: both;
+				display: block;
+				content: "";
+			}
+			.nav ul li{
+				margin-top: 20px;
+				float: left;
+				padding:0 10px;
+				border-left: 1px dashed #ccc;
+			}
+			.nav ul li a{
+				text-decoration: none;
+				color: #333;
+				font-weight:bold;
+			}
+			.nav ul li a:hover{
+				text-decoration: underline;
+				color: #B0B0B0;
+			}
+			.nav ul li p{
+				font-size: 12px;
+				color: #b0b0b0;
+			}
+			.banner{
+				width: 50%;
+				height: 356px;
+				margin: 0 auto;
+				margin-top:50px;
+				position: relative;
+				background: url(../img/banner-bg.png) no-repeat bottom center;
+			}
+			.banner .btn{
+				position: absolute;
+				bottom: 28px;
+				left: 20px;
+			}
+			.banner .btn a{
+				width: 17px;
+				height: 17px;
+				display: inline-block;
+				background: url(../img/pointer.png) no-repeat;
+			}
+			.banner .btn .active,
+			.banner .btn a:hover {
+				background: url(../img/pointer-active.png) no-repeat;
+			}
+			
+			/*正文*/
+			.content{
+				margin: 0 auto;
+				width: 50%;
+				background: url(../img/line.png) no-repeat bottom;
+				margin-bottom: 20px;
+				padding-bottom: 20px;
+			}
+
+			.content h1 {
+				font-size: 24px;
+				text-align: center;
+				background: url(../img/line.png) no-repeat bottom;
+				padding-bottom: 20px;
+			}
+			
+			.PL,.SC{
+				margin-left: 20px;
+				float: left;
+				width:31%;
+			}
+			.CS,.Contact{
+				margin-left: 20px;
+				float: left;
+				width:31%;
+			}
+			.UC,.NU{
+				margin-left: 20px;
+				float: left;
+				width:31%;
+			}
+			
+			
+			h2{
+				color:#008B8B;
+				margin-top: 10px;
+			}
+			.fon1{
+				text-align: left;
+				color:gray;
+				font-size: 12px;
+			}
+			
+			.pl_img{
+				width: 300px;
+				height: 200px;
+				background: url(../img/img-bg.png) no-repeat;
+			}
+			.pl_img img{
+				text-align: center;
+				padding:11px 6px;
+			}
+			
+			
+		
+			.contant{
+				width: 50%;
+				margin: 0 auto;
+				background: #fff;
+			}
+			h3{
+				margin-bottom: 15px;
+				border-bottom: 1px dashed #ccc;
+			}
+			.SC img{
+				margin-top: 10px;
+				margin-right: 10px;
+				margin-bottom: 36px;
+				float: left;
+				width: 45px;
+			}
+			.content a {
+				display: inline-block;
+				width: 163px;
+				height: 40px;
+				margin: 20px 0px;
+				text-decoration: none;
+				text-align: left;
+				line-height: 40px;
+				color: #008B8B;
+				font-size: 12px;
+				padding-left: 14px;
+				background: url(../img/btn1.png) no-repeat;
+			}
+			
+			.fon2{
+				font-size: 14px;
+			}
+			
+			.contant a {
+				display: inline-block;
+				width: 163px;
+				height: 32px;
+				margin: 20px 0px 50px 0px;
+				color: #fff;
+				text-decoration: none;
+				line-height: 32px;
+				font-size: 12px;
+				padding-left: 14px;
+				background: url(../img/btn2.png) no-repeat;
+			}
+
+
+			
+			#ipt{
+				padding-left: 10px;
+				width: 280px;
+				height: 40px;
+				border-radius: 5px;
+				border: 1px solid #ccc;
+				margin-top: 10px;
+			}
+			#you_name,#address{
+				width: 280px;
+				height: 40px;
+				margin-top: 10px;
+				border-radius: 5px;
+				border: 1px solid #ccc;
+				padding-left: 10px;
+			}
+
+			.contant .Contact .massage {
+				width: 286px;
+				height: 124px;
+				margin-top: 10px;
+				background: url(../img/textarea.png) no-repeat;
+				border: none;
+				/* 禁止缩放 */
+				resize: none;
+				padding-left: 10px;
+				padding-top: 10px;
+			}
+			.NU_son{
+				margin-top: 20px;
+				padding-bottom: 20px;
+				border-bottom: 1px dashed #ccc;
+			}
+			.NU_son p{
+				font-size: 12px;
+			}
+			.NU_son img{
+				margin-right: 10px;
+				float: left;
+			}
+
+			/*底部代码样式*/
+			.footer-box{
+				font-size: 12px;
+				color: #888;
+				padding-top:50px ;
+				width: 50%;
+				height: 200px;
+				margin: 0 auto;
+				background: #333;
+			}
+ 		    .left{
+				float: left;
+			}
+			.right{
+				float: right;
+			}
+			.footer .footer-box a {
+				color: #888888;
+				text-decoration: none;
+			}
+			.footer .footer-box a:hover{
+				color: #fff;
+				text-decoration: underline;
+			}
+			.footer{
+				border-top: 10px solid #808080;
+				background: #333;
+				height: 250px;
+			}	
+
